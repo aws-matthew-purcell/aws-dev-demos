@@ -1,7 +1,7 @@
 import boto3
 import logging
 
-# Obtain references to AWS services
+# Obtain a references to the S3 service
 s3 = boto3.resource('s3')
 
 # List the bucket names
