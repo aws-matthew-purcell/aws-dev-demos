@@ -10,4 +10,4 @@ bucketName = "mattpurc-demo-data-wrangler"
 
 # Upload the file
 # Point out the first argument is the location of the file on the local system, the second is the key it will assume in S3
-s3.Bucket(bucketName).upload_file("/home/ec2-user/environment/aws-dev-demos/s3-data-wrangler-soln/bike-hire-data.csv", "data-files/bike-hire-data.csv")
+s3.Bucket(bucketName).upload_file("/home/ec2-user/environment/aws-dev-demos/s3-data-wrangler/bike-hire-data.csv", "data-files/bike-hire-data.csv")

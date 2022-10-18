@@ -2,7 +2,7 @@ import boto3
 
 # Obtain a references to the S3 service
 # Notice we are using the low-level API (i.e. client, not resource)
-# as we are performing an operation on the bucket, not objects
+# as head_bucket() is not available in the high-level API
 s3 = boto3.client('s3')
 
 # Helper function to check whether bucket exists
